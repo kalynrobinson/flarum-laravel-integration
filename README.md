@@ -1,6 +1,9 @@
 # Flarum-Laravel Integration
 Example and guide to integrating Flarum with Laravel's basic auth.
 
+## Credits
+* [Wogan](https://wogan.blog/2017/02/12/integrating-laravel-and-flarum/) for the workflow
+
 ## Tutorial
 
 ### Prerequisites
