@@ -21,7 +21,7 @@ class Activate
      *
      * @return void
      */
-    public function __construct(User $user)
+    public function __construct(Authenticatable $user)
     {
         $this->user = $user;
     }
