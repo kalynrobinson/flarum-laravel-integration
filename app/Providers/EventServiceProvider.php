@@ -17,6 +17,15 @@ class EventServiceProvider extends ServiceProvider
             'App\Listeners\EventListener',
         ],
     ];
+    
+    /**
+     * The subscriber classes to register.
+     *
+     * @var array
+     */
+    protected $subscribe = [
+        'App\Listeners\FlarumEventSubscriber',
+    ];
 
     /**
      * Register any events for your application.
